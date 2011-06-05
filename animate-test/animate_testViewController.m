@@ -103,7 +103,7 @@
     wrench1ShadowSwing.repeatCount = HUGE_VAL;
     wrench1ShadowSwing.autoreverses = YES;
     wrench1ShadowSwing.duration = 1.0;
-    wrench1ShadowSwing.beginTime = CACurrentMediaTime() + 1;
+    wrench1ShadowSwing.beginTime = CACurrentMediaTime() + 0.5;
     
     wrench2ShadowSwing = [CABasicAnimation animationWithKeyPath:@"shadowOffset"];
     wrench2ShadowSwing.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
@@ -111,7 +111,7 @@
     wrench2ShadowSwing.repeatCount = HUGE_VAL;
     wrench2ShadowSwing.autoreverses = YES;
     wrench2ShadowSwing.duration = 1.0;
-    wrench2ShadowSwing.beginTime = CACurrentMediaTime() + 1;
+    wrench2ShadowSwing.beginTime = CACurrentMediaTime() + 0.5;
     
     spotlightSwing = [CABasicAnimation animationWithKeyPath:@"position"];
     spotlightSwing.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
@@ -119,7 +119,7 @@
     spotlightSwing.repeatCount = HUGE_VAL;
     spotlightSwing.autoreverses = YES;
     spotlightSwing.duration = 1.0;
-    spotlightSwing.beginTime = CACurrentMediaTime() + 1;
+    spotlightSwing.beginTime = CACurrentMediaTime() + 0.5;
     
     // add animations to layers
     [wrench1 addAnimation:wrench1FlyIn forKey:@"position"];

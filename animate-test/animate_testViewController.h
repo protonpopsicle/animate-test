@@ -14,7 +14,6 @@
     CGSize wrench2ShadowOffsetStart;
     CGSize wrench1ShadowOffsetEnd;
     CGSize wrench2ShadowOffsetEnd;
-    BOOL flyInFinished;
 }
 
 @property (nonatomic, retain) CALayer *paper;

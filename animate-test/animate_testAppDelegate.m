@@ -2,7 +2,7 @@
 //  animate_testAppDelegate.m
 //  animate-test
 //
-//  Created by nimbus on 6/3/11.
+//  Created by nimbus on 6/4/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
